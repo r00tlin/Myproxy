@@ -1,11 +1,10 @@
 #MYPROXY代理池
 
-###1.运行环境
+###1.运行环境 
 Winodows/Unix/Linux系列  
 Python3.5+
 
-###2.安装
-
+###2.安装 
 + Python第三方库安装：pip(3) install -r requirements.txt
 + Redis安装参考链接：http://www.runoob.com/redis/redis-install.html
 
