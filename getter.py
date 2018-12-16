@@ -31,7 +31,7 @@ class Getter():
                 for callback_label in range(self.crawler.__CrawlFuncCount__):
                     callback = self.crawler.__CrawlFunc__[callback_label]
                     proxies = self.crawler.get_proxies(callback)
-                    if not proxies:
+                    if proxies:
                         for proxy in proxies:
                             self.redis.add(proxy)
             print("代理获取模块/getter运行完成，本次运行结束时间为：{}".format(time.ctime()).upper())
