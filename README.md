@@ -29,3 +29,8 @@ Python3.5+
 
 ###6.参考资料
 https://github.com/Python3WebSpider/ProxyPool
+
+
+
+更新状态：
+1.2018/12/16修改爬取单个网页出错导致程序退出的bug
