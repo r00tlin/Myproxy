@@ -1,5 +1,5 @@
 flask
-redis
+redis==2.10.5
 pyquery
 aiohttp
 requests
